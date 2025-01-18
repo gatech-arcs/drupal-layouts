@@ -1,0 +1,11 @@
+name: 'GT-SEO-Social'
+type: 'Search'
+description: 'Drupal recipe for baseline SEO and Social settings'
+
+install:
+  - cas
+  - externalauth
+
+config:
+  import:
+    cas: '*'
