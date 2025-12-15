@@ -1,11 +1,15 @@
-name: 'GT-SEO-Social'
-type: 'Search'
-description: 'Drupal recipe for baseline SEO and Social settings'
+name: 'GT Layouts'
+type: 'Site'
+description: 'Drupal recipe for Layouts'
 
 install:
-  - cas
-  - externalauth
+  - layout_builder_component_attributes
+  - layout_builder_iframe_modal
+  - layout_builder_operation_link
+  - layout_builder_restrictions
+  - layout_builder_styles
+  - lb_direct_add
 
 config:
   import:
-    cas: '*'
+    layout_builder_component_attributes: '*'
